@@ -8,7 +8,7 @@ AC_CONFIG_HEADER([config.h])
 
 # Checks for programs.
 AC_PROG_CXX
-#ROOT minimum version 5.30
+#ROOT minimum version 5.34
 ROOT_PATH( [5.34/00] ,
 	,
 	[ AC_MSG_ERROR( [You must install ROOT (version 5.34/00 or later) before installing fazia-gui] ) ]
@@ -34,7 +34,7 @@ AC_C_CONST
 
 # Checks for library functions.
 
-   AC_CONFIG_FILES(
-           [Makefile]
-   )
+AC_CONFIG_FILES(
+   [Makefile]
+)
 AC_OUTPUT
