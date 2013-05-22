@@ -1,0 +1,14 @@
+******************************************************************
+Example project building a C++ shared library from several classes
+based on the ROOT toolkit
+******************************************************************
+
+Source files are automatically added to the Makefile.am which is
+generated at the configure step by using one of the macros in
+m4/create_rootlib_makefile_am.m4.
+
+See INSTALL file for build instructions (special attention required
+if you are working with Bazaar source branches)
+
+When new source files are added, you must re-run ./configure in order
+to update the Makefile.
