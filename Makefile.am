@@ -1,7 +1,7 @@
 # The following line is essential because we have AC_CONFIG_MACRO_DIR([m4]) in configure.ac
 # See http://www.gnu.org/software/autoconf/manual/autoconf.html#index-AC_005fCONFIG_005fMACRO_005fDIR-62
 ACLOCAL_AMFLAGS 	      = -I m4
-LDFLAGS                 = -L/usr/lib/x86_64-linux-gnu -lGui -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic
+LDFLAGS                 = -L$(ROOTLIBDIR) $(ROOTGLIBS) $(ROOTAUXLIBS)
 LIBS  		            = $(ROOTGLIBS)
 
 lib_LTLIBRARIES = libsimplerootlibrary.la
