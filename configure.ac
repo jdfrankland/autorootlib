@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
-AC_INIT([simplerootlibrary], [1.0], [https://bugs.launchpad.net/simplerootlibrary])
+AC_INIT([autorootlib], [1.0], [https://bugs.launchpad.net/simplerootlibrary])
 AC_CONFIG_SRCDIR([include/LinkDef.h])
 AC_CONFIG_HEADER([config.h])
 
