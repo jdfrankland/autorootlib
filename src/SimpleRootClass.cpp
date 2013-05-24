@@ -17,6 +17,7 @@ ClassImp(SimpleRootClass)
 SimpleRootClass::SimpleRootClass()
 {
    // Default constructor
+   Info("SimpleRootClass", "I am created");
 }
 
 //________________________________________________________________
